@@ -1,5 +1,5 @@
 public class Grafo {
-    private final int INF = 9999;
+    public static final int INF = 9999;
     private int[][] matrizAdyacencia;
     private String[] vertices;
 
@@ -39,5 +39,4 @@ public class Grafo {
         return -1;
     }
 
-    public static final int INF = 9999;
 }
